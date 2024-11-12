@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArgentTMA, SessionAccountInterface } from "@argent/tma-wallet";
-import { Account, Contract, AccountInterface } from "starknet";
+//import { Account, Contract, AccountInterface } from "starknet";
 import Game from './components/Game';
 
 const argentTMA = ArgentTMA.init({

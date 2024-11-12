@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { TfiControlPlay, TfiFaceSad, TfiGift, TfiWallet } from 'react-icons/tfi'; 
+import /*React,*/ { useEffect, useState } from 'react'
+import { TfiControlPlay, TfiFaceSad, TfiGift, /*TfiWallet*/ } from 'react-icons/tfi'; 
 import { toast } from 'react-toastify';
-import {Contract, cairo, AccountInterface} from 'starknet'
+import {Contract, /*cairo,*/ AccountInterface} from 'starknet'
 
 import { SessionAccountInterface } from "@argent/tma-wallet";
 
