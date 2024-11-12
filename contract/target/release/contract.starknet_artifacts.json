@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"klodjhf169una","package_name":"contract","contract_name":"Game","module_path":"contract::game::Game","artifacts":{"sierra":"contract_Game.contract_class.json","casm":"contract_Game.compiled_contract_class.json"}}]}
