@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArgentTMA, SessionAccountInterface } from "@argent/tma-wallet";
 import { Account, Contract, AccountInterface } from "starknet";
-import Game from '../components/Game';
+import Game from './components/Game';
 
 const argentTMA = ArgentTMA.init({
   environment: "sepolia", // "sepolia" | "mainnet" (not supperted yet)
@@ -99,7 +99,7 @@ function App() {
       </div>
         {/* outlet */}
       <div className="grid grid-cols-1">
-        {isConnected && <Game context={account}/>}
+        {isConnected && <Game account ={account}/>}
       </div>
     </div>
   );
