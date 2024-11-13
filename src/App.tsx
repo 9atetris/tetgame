@@ -5,7 +5,7 @@ import Game from './components/Game';
 const argentTMA = ArgentTMA.init({
   environment: "sepolia", // "sepolia" | "mainnet" (not supported yet)
   appName: "tetgame", // Your Telegram app name
-  appTelegramUrl: "https://t.me/tetgame_bot", // Your Telegram app URL
+  appTelegramUrl: "https://t.me/tetgame_bot/tetgame", // Your Telegram app URL
   sessionParams: {
     allowedMethods: [
       // List of contracts/methods allowed to be called by the session key
