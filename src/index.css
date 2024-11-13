@@ -1,8 +1,11 @@
+/* index.css */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
+  /* 既存のカラースキームとフォント設定を保持 */
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -24,8 +27,6 @@ a:hover {
 
 body {
   margin: 0;
- /*display: flex;*/
- /*place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
 }
@@ -35,7 +36,10 @@ h1 {
   line-height: 1.1;
 }
 
+/* グローバルなボタンのスタイルを調整または削除 */
 button {
+  /* Tailwind CSSのクラスでボタンをスタイルする場合は、このセクションをコメントアウトまたは削除します */
+  /*
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -45,13 +49,14 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  */
 }
 button:hover {
-  border-color: #646cff;
+  /* border-color: #646cff; */
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  /* outline: 4px auto -webkit-focus-ring-color; */
 }
 
 @media (prefers-color-scheme: light) {
@@ -63,6 +68,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
   }
 }

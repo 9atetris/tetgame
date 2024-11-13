@@ -1,14 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  display: flex; /* 追加 */
-  justify-content: center; /* 中央揃え */
-  align-items: center; /* 垂直方向の中央揃え */
-  min-height: 100vh; /* 画面全体の高さを確保 */
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
