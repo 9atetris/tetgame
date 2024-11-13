@@ -12,7 +12,7 @@ const argentTMA = ArgentTMA.init({
       {
         contract:
           "0x5f2bf091c03af0f14973d16b556033e0c0e31d5c2ff6199af68d787854c011c",
-        selector: "claimPoints(_points)",
+        selector: "claimPoints",
       }
     ],
     validityDays: 90 // session validity (in days) - default: 90
