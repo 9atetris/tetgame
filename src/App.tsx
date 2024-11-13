@@ -109,8 +109,10 @@ function App() {
         {isConnected ? (
           <Game account={account} />
         ) : (
-          <div className="flex justify-center items-center h-screen">
-            <p className="text-center mt-4">Please connect your wallet to start the game.</p>
+          <div id="root" className="w-full h-screen flex justify-center items-center">
+            <div className="text-center">
+              <p>Please connect your wallet to start the game.</p>
+            </div>
           </div>
         )}
       </div>
