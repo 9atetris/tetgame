@@ -1,4 +1,18 @@
+/*tailwind base css*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* index.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100%;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
