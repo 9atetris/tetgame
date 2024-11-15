@@ -58,12 +58,6 @@ function App() {
     await argentTMA.requestConnection("custom_callback_data");
   };
 
-  const handleClearSessionButton = async () => {
-    await argentTMA.clearSession();
-    setAccount(undefined);
-    setIsConnected(false);
-  };
-
   console.log("Account:", account);
 
   return (
